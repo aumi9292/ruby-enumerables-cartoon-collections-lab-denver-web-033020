@@ -12,6 +12,8 @@ end
 
 def find_the_cheese(cheeses)
   cheeses.find {|item| item == "cheddar" && "gouda" && "camembert"}
-
+  cheeses.find {|item| item == "cheddar" && "gouda" && "camembert"}
+  cheeses.find {|item| item == "cheddar" && "gouda" && "camembert"}
+#  cheeses.find {|item| item == "cheddar" && "gouda" && "camembert"}
 #  cheese_types = ["cheddar", "gouda", "camembert"]
 end
